@@ -25,6 +25,22 @@ describe Board do
 
 	end
 
+	describe "#render" do 
+
+		it "should display the bunch in the center of the board" do
+			pending("finish")
+		end
+
+		it "should correctly display a large bunch" do
+			pending("finish")
+		end
+
+		it "should correctly display a small bunch" do
+			pending("finish")
+		end
+
+	end
+
 	describe "#place_tile" do
 
 		let(:j_tile) { Tile.new(:J) }

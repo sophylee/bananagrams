@@ -9,7 +9,7 @@ class Board
 	attr_accessor :rows
 
 	def initialize
-		@rows = Array.new(20) { Array.new(55)  }
+		@rows = Array.new(20) { Array.new(55) }
 	end
 
 	def []location
@@ -56,4 +56,4 @@ class Board
 
 end
 
-# Board.new.render
+Board.new.render

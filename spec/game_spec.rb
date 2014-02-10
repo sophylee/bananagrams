@@ -24,4 +24,16 @@ describe Game do
 		end
 	end
 
+	describe "#play" do
+
+		it "should loop through the game until a player wins" do
+			pending("finish")
+		end
+
+		it "should display the name of the winner" do
+			pending("finish")
+		end
+
+	end
+
 end

@@ -6,10 +6,7 @@ class Player
 	attr_reader :name, :num
 
 	def initialize(name, num, hand)
-		@name = name
-		@num = num
-		@hand = hand
+		@name, @num, @hand = name, num, hand
 	end
-
 
 end
